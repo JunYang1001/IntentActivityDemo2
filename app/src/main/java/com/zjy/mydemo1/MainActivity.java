@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
 //               startActivity(intent);
 
                //intent传递数据到另一个活动
-//               String data="hello zjy";
-//               Intent  intent=new Intent(MainActivity.this,Main4Activity.class);
-//               intent.putExtra("data_type",data);
-//               startActivity(intent);
+              String data="hello zjy";
+               Intent  intent=new Intent(MainActivity.this,Main4Activity.class);
+               intent.putExtra("data_type",data);
+               startActivity(intent);
 
 
-               Intent intent=new Intent(MainActivity.this,Main4Activity.class);
-               startActivityForResult(intent,1);
+               //Intent intent=new Intent(MainActivity.this,Main4Activity.class);
+               //startActivityForResult(intent,1);
 
 
           }
